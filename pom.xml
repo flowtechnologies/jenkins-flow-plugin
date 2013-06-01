@@ -21,6 +21,12 @@
             <email>info@startflowing.net</email>
         </developer>
     </developers>
+    
+    <scm>
+        <connection>scm:git:ssh://github.com/flowtechnologies/jenkins-flow-plugin.git</connection>
+        <developerConnection>scm:git:ssh://github.com/flowtechnologies/jenkins-flow-plugin.git</developerConnection>
+        <url>https://github.com/flowtechnologies/jenkins-flow-plugin</url>
+    </scm>
 
     <repositories>
         <repository>
