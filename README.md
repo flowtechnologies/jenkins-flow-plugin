@@ -1,4 +1,6 @@
-jenkins-flow-plugin
+Jenkins FLOW Plugin
 ===================
 
-Jenkins FLOW Plugin
+See http://startflowing.net for some more detail
+
+

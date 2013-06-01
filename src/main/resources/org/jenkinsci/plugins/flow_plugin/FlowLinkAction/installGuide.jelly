@@ -1,0 +1,69 @@
+<j:jelly xmlns:j="jelly:core" xmlns:st="jelly:stapler" xmlns:d="jelly:define" xmlns:l="/lib/layout" xmlns:t="/lib/hudson" xmlns:f="/lib/form">
+
+    <style type="text/css">
+            #side-panel {
+                display: inline;
+            }
+            #accordion {
+                position:absolute;
+                bottom: 0px;
+                width: 100%;
+            }
+            .numberCircle {
+                -webkit-border-radius: 999px;
+                -moz-border-radius: 999px;
+                border-radius: 999px;
+                behavior: url(PIE.htc);
+                width: 36px;
+                height: 36px;
+                padding: 8px;
+                background: #fff;
+                border: 2px solid #666;
+                color: #666;
+                text-align: center;
+                font: 32px Arial, sans-serif
+            }
+            #gettingStarted td{
+                height:70px;
+                vertical-align:middle;
+                font-size:larger;
+                padding:5px;
+            }
+            #logo{
+                width: 10px;
+            }
+
+    </style>
+    <br />
+    <br />
+    <br />
+    <img class="logo" src="${rootURL}/plugin/flow/images/logo.png" alt="some_text" width="160px"/>
+    <br />
+    <br />
+    <h2>It looks like you haven't configured FLOW</h2>
+    <br />
+    <table id="gettingStarted">
+	    <tr>
+		    <td><div class="numberCircle">1</div></td>
+		    <td>Unzip FLOW from <a href="http://flow-packages.s3.amazonaws.com/Flow-0.1-BETA.zip">here</a></td>
+	    </tr>
+	    <tr>
+		    <td><div class="numberCircle">2</div></td>
+		    <td>Run startup.bat or startup.sh</td>
+	    </tr>
+	    <tr>
+		    <td><div class="numberCircle">3</div></td>
+		    <td>
+		         <a href='${rootURL}/configure'>
+                     Add the URL to the FLOW section of Jenkins configuration
+                     <img src="${rootURL}/images/24x24/setting.png" alt="Configure" class="icon-with-caption" />
+                 </a>
+           </td>
+	    </tr>
+	    	    <tr>
+        		    <td><div class="numberCircle">4</div></td>
+        		    <td>There is no step 4!!!</td>
+        	    </tr>
+    </table>
+
+</j:jelly>

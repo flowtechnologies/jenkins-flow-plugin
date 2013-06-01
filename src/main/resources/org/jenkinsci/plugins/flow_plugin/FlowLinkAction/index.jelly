@@ -1,0 +1,17 @@
+<j:jelly xmlns:j="jelly:core" xmlns:st="jelly:stapler" xmlns:d="jelly:define" xmlns:l="/lib/layout" xmlns:t="/lib/hudson" xmlns:f="/lib/form">
+    <style type="text/css">
+            #side-panel {
+                display: none;
+            }
+    </style>
+    <l:layout>
+        <l:main-panel>
+           <j:if test="${it.getFlowUrl() != null}">
+                <iframe src="${it.getFlowUrl()}" height="600px" width="100%" frameborder="0"></iframe>
+           </j:if>
+           <j:if test="${it.getFlowUrl() == null}">
+                <st:include page="installGuide.jelly" />
+           </j:if>
+        </l:main-panel>
+    </l:layout>
+</j:jelly>
