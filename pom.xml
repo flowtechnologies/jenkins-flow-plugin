@@ -22,8 +22,8 @@
     </developers>
     
     <scm>
-        <connection>scm:git:ssh://github.com/flowtechnologies/jenkins-flow-plugin.git</connection>
-        <developerConnection>scm:git:ssh://github.com/flowtechnologies/jenkins-flow-plugin.git</developerConnection>
+        <connection>scm:git:https://github.com/flowtechnologies/jenkins-flow-plugin.git</connection>
+        <developerConnection>scm:git:https://github.com/flowtechnologies/jenkins-flow-plugin.git</developerConnection>
         <url>https://github.com/flowtechnologies/jenkins-flow-plugin</url>
     </scm>
 
