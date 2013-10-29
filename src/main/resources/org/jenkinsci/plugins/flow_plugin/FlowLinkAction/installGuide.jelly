@@ -45,7 +45,7 @@
     <table id="gettingStarted">
 	    <tr>
 		    <td><div class="numberCircle">1</div></td>
-		    <td>Unzip FLOW from <a href="https://s3-ap-southeast-2.amazonaws.com/flow-packages/flowui-0.2-2013-07-18.zip">here</a></td>
+		    <td>Unzip FLOW from <a href="https://s3-ap-southeast-2.amazonaws.com/flow-packages/Flow-0.3-BETA.zip">here</a></td>
 	    </tr>
 	    <tr>
 		    <td><div class="numberCircle">2</div></td>
